@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-ENV TOKEN=6313487970:AAFTTlck6BdTRqUkx1OMPXYBVYJ6ayFWZuc
+ENV TOKEN='insert your token here'
 
 COPY bot.py .
 COPY cfg.py .
